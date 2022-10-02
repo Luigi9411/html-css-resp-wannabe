@@ -131,23 +131,52 @@ img {
  
  @media (min-width:768px)  and (max-width:1100px) {
         .container{
-         width:100vw;
+         width:100%;
         }
         .card p{
             font-size: 16px;
-            padding: 0 3em;
         }
         .steps p{
-            font-size: 16px;
-            padding: 0 2.2em;
+            font-size: 15.5px;
         }
         .why-us p{
-            font-size: 21px;
-            padding: 0.5em 0;
+            font-size: 12.5px;
+            
         }
+        
+        .row{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lessons .col {
+            width: 45%;
+           
+        }
+
+        .why-us .col-left {
+            width: 80%;
+            
+        }
+        
+        .why-us .col-right {
+            width: 80%;
+        }
+
+        .steps .col {
+            width: 100%;
+        }
+
+        .col-left img {
+            max-width: 78%;
+            position: relative;
+            left: 2rem;
+            top: -7rem;
+        }
+        
     }
 
- @media   (max-width:480px) {
+ @media screen and (max-width:480px) {
             
             
 
@@ -160,11 +189,11 @@ img {
                 justify-content: center;
                 align-items: center;
             }
-            h2{
+            ph2{
                 text-align: center;
                 font-size: 2.4rem;
             }
-            h1{
+            ph1{
                 font-size: 3rem;
             }
 
